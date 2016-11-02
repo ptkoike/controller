@@ -13,7 +13,7 @@
 
 # Feel free to change the variables in this section to configure your keyboard
 
-BuildPath="ICED-L"
+BuildPath="PTergo-L"
 
 ## KLL Configuration ##
 
@@ -23,7 +23,7 @@ BaseMap="scancode_map leftHand slave1 rightHand"
 # This is the default layer of the keyboard
 # NOTE: To combine kll files into a single layout, separate them by spaces
 # e.g.  DefaultMap="mylayout mylayoutmod"
-DefaultMap="mdergo1Overlay lcdFuncMap"
+DefaultMap="ptergo-0 lcdFuncMap"
 
 # This is where you set the additional layers
 # NOTE: Indexing starts at 1
@@ -31,8 +31,10 @@ DefaultMap="mdergo1Overlay lcdFuncMap"
 # e.g.  PartialMaps[1]="layer1 layer1mod"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
-PartialMaps[1]="iced_func"
-PartialMaps[2]="iced_numpad"
+PartialMaps[1]="ptergo-1"
+PartialMaps[2]="ptergo-2"
+PartialMaps[3]="ptergo-3"
+PartialMaps[4]="ptergo-4"
 
 
 
@@ -65,10 +67,10 @@ Compiler="gcc"
 # Shouldn't need to touch this section
 
 # Check if the library can be found
-if [ ! -f cmake.bash ]; then
-	echo "ERROR: Cannot find 'cmake.bash'"
-	exit 1
-fi
+# if [ ! -f cmake.bash ]; then
+#	echo "ERROR: Cannot find 'cmake.bash'"
+#	exit 1
+#fi
 
 # Load the library
 source cmake.bash
@@ -83,7 +85,7 @@ source cmake.bash
 
 # Feel free to change the variables in this section to configure your keyboard
 
-BuildPath="ICED-R"
+BuildPath="PTergo-R"
 
 ## KLL Configuration ##
 

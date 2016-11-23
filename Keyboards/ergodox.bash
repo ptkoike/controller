@@ -33,8 +33,8 @@ DefaultMap="ptergo-0 lcdFuncMap"
 #       PartialMaps[3]="layer3"
 PartialMaps[1]="ptergo-1"
 PartialMaps[2]="ptergo-2"
-PartialMaps[3]="ptergo-3"
-PartialMaps[4]="ptergo-4"
+# PartialMaps[3]="ptergo-3"
+# PartialMaps[4]="ptergo-4"
 
 
 

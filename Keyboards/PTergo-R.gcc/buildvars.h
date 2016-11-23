@@ -34,15 +34,15 @@
 
 
 // Strings used in the CLI module
-#define CLI_Revision            "440657b77e1207ecdf36bf240542f1300ca734b4"
+#define CLI_Revision            "f8ca0f6a222d37ed5062c48c363d04de9cec4e7f"
 #define CLI_Branch              "master"
 #define CLI_ModifiedStatus      "Dirty"
-#define CLI_ModifiedFiles       "\r\n\tKeyboards/PTergo-L.gcc/buildvars.h\r\n\tKeyboards/PTergo-L.gcc/generatedKeymap.h\r\n\tKeyboards/PTergo-L.gcc/kll_defs.h"
+#define CLI_ModifiedFiles       "\r\n\tKeyboards/PTergo-L.gcc/buildvars.h\r\n\tKeyboards/PTergo-L.gcc/generatedKeymap.h\r\n\tKeyboards/PTergo-L.gcc/kll_defs.h\r\n\tKeyboards/PTergo-R.gcc/buildvars.h\r\n\tKeyboards/PTergo-R.gcc/generatedKeymap.h\r\n\tKeyboards/PTergo-R.gcc/kll_defs.h\r\n\tKeyboards/ergodox.bash"
 #define CLI_RepoOrigin          "https://github.com/ptkoike/controller.git"
-#define CLI_CommitDate          "2016-11-03 03:18:31 +0900"
+#define CLI_CommitDate          "2016-11-24 02:20:31 +0900"
 #define CLI_CommitAuthor        "Peter <peter@Peters-iMac.local>"
 #define CLI_Modules             "Scan(Infinity_Ergodox) Macro(PartialMap) Output(pjrcUSB) Debug(full)"
-#define CLI_BuildDate           "2016-11-23 03:42:36 +0900"
+#define CLI_BuildDate           "2016-11-24 03:14:17 +0900"
 #define CLI_BuildOS             "Generic"
 #define CLI_Arch                "arm"
 #define CLI_Chip                "mk20dx256vlh7"
@@ -56,5 +56,5 @@
 // match the INF file.
 #define VENDOR_ID               0x1C11
 #define PRODUCT_ID              0xB04D
-#define BCD_VERSION             482
+#define BCD_VERSION             483
 
